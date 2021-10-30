@@ -1,0 +1,231 @@
+html, body{
+	font-family:"Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height:16px;
+	color: #7C7C7C;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	background-color:#edf7ed;
+}
+p, ul, td{
+	margin-bottom:4px;
+	text-align:left;
+	font-size: 13px;
+	line-height:16px;
+	color: #7C7C7C;
+	font-family:"Times New Roman", Times, serif;
+}
+h1	{
+	font-size: 50px;
+	line-height:55px;
+	color:#7C7C7C;
+	padding:0px;
+	margin:0px;
+	font-weight:lighter;
+}
+h2	{
+	font-size: 16px;
+	line-height:16px;
+	padding:0 5px 0px 0px;
+}
+h2 a{
+	text-decoration:none;
+	color:#666;
+}
+h2 a:hover{
+	text-decoration:none;
+	color:#E35E00;
+}
+h3{
+	font-size: 18px;
+	line-height:20px;
+	color:#7C7C7C;
+	margin:0px;
+	padding:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-weight:lighter;
+}
+h5{
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size:9px;
+	margin:0px;
+	padding:0px;
+}
+img{
+	border:none;
+}
+a{
+	color: #666;
+	text-decoration:none;
+}
+a:hover{
+	color:#999;
+	text-decoration:underline;
+}
+/*a[href$=".pdf"],
+a[href$=".PDF"],
+a.pdf {
+	padding: 2px;
+	padding-left: 20px;
+	background: url(/pic/page_white_acrobat.png) no-repeat left center;
+}
+*/
+#allcontain{
+	width:1006px;
+	background-color:#FFF;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:left;
+}
+/*#topbg{
+	height:212px;
+	background-image:url(/img/bg.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}*/
+#lle{
+	float:left;	
+}
+#logo{
+	margin-left:24px;
+	margin-top:34px;
+}
+#cdd{
+	float:right;
+	margin-right:115px;
+	margin-top:34px;
+}
+#navi{
+	clear:both;
+	background-color:#FFF;
+	height:69px;
+}
+
+#navi span{
+display: block;
+height: 69px; /*height of tab image */
+width:40px;
+float: left;
+display: inline;
+margin-left: 0px; /*spacing between tabs */
+padding-top: 0px; /*vertical offset of tab text from top of tab*/
+}
+#navi a{
+display: block;
+height: 39px; /*height of tab image */
+float: left;
+display: inline;
+margin-left: 0px; /*spacing between tabs */
+padding-top: 0px; /*vertical offset of tab text from top of tab*/
+}
+#n_home{
+	width:78px;
+	background-image:url(/img/home.gif);
+	display:inline-block;
+	cursor:pointer;
+	margin-top:12px;
+}
+#n_home.current, #n_home:hover{
+	background-image:url(/img/home_c.gif);
+}
+#n_about{
+	width:111px;
+	background-image:url(/img/about.gif);
+	display:inline-block;
+	cursor:pointer;
+	margin-top:12px;
+}
+#n_about.current, #n_about:hover{
+	background-image:url(/img/about_c.gif);
+}
+#n_faq{
+	width:102px;
+	background-image:url(/img/faq.gif);
+	display:inline-block;
+	cursor:pointer;
+	margin-top:12px;
+}
+#n_faq.current, #n_faq:hover{
+	background-image:url(/img/faq_c.gif);
+}
+#n_testimonials{
+	width:153px;
+	background-image:url(/img/testimonials.gif);
+	display:inline-block;
+	cursor:pointer;
+	margin-top:12px;
+}
+#n_testimonials.current, #n_testimonials:hover{
+	background-image:url(/img/testimonials_c.gif);
+}
+#n_contact{
+	width:141px;
+	background-image:url(/img/contact.gif);
+	display:inline-block;
+	cursor:pointer;
+	margin-top:12px;
+}
+#n_contact.current, #n_contact:hover{
+	background-image:url(/img/contact_c.gif);
+}
+#n_search{
+	width:142px;
+	height:39px;
+	background-image:url(/img/search.gif);
+	background-repeat:no-repeat;
+	display:inline-block;
+	margin-top:12px;
+	border:none;
+	vertical-align:middle;
+}
+#maincon{
+	clear:both;
+}
+#mainleft{
+	width:151px;
+	float:left;
+	padding-left:34px;
+	padding-right:4px;
+}
+#mainleft p{
+	font-size:18px;	
+}
+#mainleft ul{
+		list-style-type:square;
+		font-size:16px;	
+}
+#mainright{
+	width:817px;
+	margin-left:189px;
+	background:url(img/footer.jpg) no-repeat right bottom;
+	min-height:520px;
+}
+#dhtmltooltip{
+position: absolute;
+padding: 10px;
+color:#FFF;
+background-color:#999;
+visibility: hidden;
+z-index: 100;
+font-size:28px;
+}
+.ide{
+	margin-left:35px;
+	width:300px;
+}
+.ide a h3{
+	border:1px solid #fff;
+	padding:5px;
+}
+.ide a h3:hover{
+	border:1px dashed #999;
+}
+td{
+	vertical-align:middle;	
+	font-size: 16px;
+	line-height:18px;
+	color:#7C7C7C;
+	margin:0px;
+	padding:0px;
+}
